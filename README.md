@@ -18,7 +18,7 @@ Original data is from:
 contains the catalogue of Reflection Nebulae (RNe) in the Corona Australis (CrA) star forming region, the script used to analyze the data and the results obtained analyzing the catalogue.
 
 Content:
-* [`getdata`]((./RNe_in_CrA/getdata) : script used to crop the data around each yso and open it with ds9.
-* [`Results.ipynb`]((./RNe_in_CrA/Results.ipynb) : jupyter notebook with the analysis on the final catalogue.
-* [`catalogue.csv`]((./RNe_in_CrA/catalogue.csv) : final catalogue of RNe in CrA in csv format.
-* [`catalogue.ods`]((./RNe_in_CrA/catalogue.ods) : final catalogue of RNe in CrA in ods format.
+* [`getdata`](./RNe_in_CrA/getdata) : script used to crop the data around each yso and open it with ds9.
+* [`Results.ipynb`](./RNe_in_CrA/Results.ipynb) : jupyter notebook with the analysis on the final catalogue.
+* [`catalogue.csv`](./RNe_in_CrA/catalogue.csv) : final catalogue of RNe in CrA in csv format.
+* [`catalogue.ods`](./RNe_in_CrA/catalogue.ods) : final catalogue of RNe in CrA in ods format.
