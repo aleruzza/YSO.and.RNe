@@ -4,7 +4,7 @@ Work started as Project C of ESO Summer Research Programme 2023.
 ## Repository content
 
 ### [YSO](./YSO)
-contains the [catalogues](./YSO/catalogues) of Young Stellar Objects in the Corona Australis star forming region and the [jupyter notebookk](./YSO/Join\ catalogues.ipynb)
+contains the [catalogues](./YSO/catalogues) of Young Stellar Objects in the Corona Australis star forming region and the [jupyter notebookk](./YSO/JoinCatalogues.ipynb)
 used to join the literature catalogues.
 
 Original data is from:
