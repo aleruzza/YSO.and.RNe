@@ -1,0 +1,161 @@
+#!/usr/bin/python3
+
+'''
+Script used to select the tiles of OmegaCAM data that cover a specific coordinate, 
+stack them together (for each filter),
+and open the resulting images in ds9 to look at the data.
+
+Arguments:
+----------
+	id of the yso of interest in the catalogue
+	
+Requires: 
+(see config section of the code)
+----------
+	yso_cata_file:
+		catalogue of YSOs to which the index is referring to
+	root: 
+		directory where all the new data will be stored
+	regions_cata:
+		catalogue of all the regions covered by the OmegaCAM data. Created with separate script.
+	examplefile4wcs:
+		one of the files containing OmegaCAM data. Used only once to extract wcs to convert skycoord to pixel coordinates
+	casu_mos:
+		mosaic bin of casutools
+		
+Output:
+----------
+	the script creates a directory inside root named after the id of the yso.
+	Inside thhis directory the following files will be created:
+	 - for each filter: <filter>.fits with the stacked image.
+	   		    The FITS file contains all the necessary
+	   		    headers to setup the wcs.
+	 - reg.pck: pickle loadable pandas dataframe containing the files 
+	            and fields of view of the Omega-CAM 
+	            data in which the object can be found.
+	 - coord.xy: coordinate of the object under consideration, wcs fk5, format xy.
+	 - ysoobj.csv: properties of yso under consideration. Row of the original dataset of YSO.
+         - the directory temp is used internally by the script. Its content should have been erased after the script ends successfully.
+'''
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from astropy.io import fits
+from astropy.wcs import WCS
+from astropy.coordinates import SkyCoord
+from tqdm import tqdm
+import sys
+import os
+
+
+id = int(sys.argv[1])
+
+#--------------------| config |-----------------------------
+
+yso_cata_file = '../YSO/catalogues/merged_complete.csv'
+root = 'data'
+regions_cata = '../RNe_catalogues/regions.pck'
+examplefile4wcs = f'../CrA/IMA/Ha_CrA_2_3a.fit'
+casu_mos = '../tools/casutools-1.0.41/bin/mosaic'
+
+#-----------------------------------------------------------
+
+# import the catalogue of YSO in Cra
+yso = pd.read_csv(yso_cata_file, index_col=0)
+yso['skycoord'] = [SkyCoord(r['ra'], r['dec'], frame="fk5", unit="deg") for i, r in yso.iterrows()]
+#yso = yso.reset_index()
+
+#print info on object of interest
+print(f'requested object {id}')
+print(yso.loc[id])
+
+cont=True
+id-=1
+while cont:
+	id+=1
+	
+	dire = f'{id}'
+	if not os.path.exists(f'{root}/{dire}'):
+		os.mkdir(f'{root}/{dire}')
+		# find the tiles needed
+		print('looking for regions of interest')
+		df = pd.read_pickle(regions_cata)
+		data = fits.open(examplefile4wcs)
+		wcs = WCS(data[1].header)  
+		roi = [reg.contains(yso.loc[id, 'skycoord'], wcs) for reg in tqdm(df['skyreg'])]
+		
+		
+		filters = [['u'], ['g'], ['r'], ['Ha'], ['i'], ['r', 'Ha', 'i']]
+
+		#here starts the part that needs to be repeated for each YSO
+		reg = df[roi]
+		
+		
+			
+		with open(f'{root}/{dire}/coord.xy', 'w') as coordfile:
+				coordfile.write(f"{yso.loc[id, 'ra']}, {yso.loc[id, 'dec']}")
+			
+		tempdir = f'{root}/{dire}/temp'
+		os.mkdir(tempdir)
+		print(f'found {len(reg)} regions')
+		print(reg)
+
+		print('stacking images')
+
+		reg.to_pickle(f'{root}/{dire}/reg.pck')
+		yso.loc[id].to_csv(f'{root}/{dire}/ysoobj.csv')
+		for filter in tqdm(filters):
+			regs = reg[reg['filter'].isin(filter)]
+			if len(regs)==0:
+				print(f"no images found for filter {' '.join(filter)}, skipping...")
+				continue
+			else:
+				cont=False
+				#print(f'final at {id}')
+				
+			imagesfn = []
+			confsfn = []
+			for i, row in regs.iterrows():
+				fnameima = f"../CrA/IMA/{row['filter']}_CrA_{int(row['row'])}_{int(row['column'])}{row['flag']}.fit"
+				fnameconf = f"../CrA/CAL/{row['filter']}_SDSS_conf_apr2016.fit"
+				j = int(row['j'])
+				newnameima = f"{tempdir}/{i}.{row['filter']}.{int(row['row'])}.{int(row['column'])}.{row['flag']}.{j}.fits"
+				newnameconf = f"{tempdir}/{i}.{row['filter']}.{int(row['row'])}.{int(row['column'])}.{row['flag']}.{j}.conf.fits"
+				imagesfn.append(newnameima)
+				confsfn.append(newnameconf)
+			
+				data = fits.open(fnameima, output_verify='silentfix')
+				head = data[0:1]
+				head.append(data.pop(j))
+				try:
+					head.writeto(newnameima, output_verify='silentfix')
+				except OSError:
+					continue
+				
+				data.close()
+			
+				data = fits.open(fnameconf, output_verify='silentfix')
+				head = data[0:1]
+				head.append(data.pop(j))
+				try:
+					head.writeto(newnameconf, output_verify='silentfix')
+				except OSError:
+					continue
+				data.close()
+			
+			data_files= ','.join(imagesfn)
+			conf_files=','.join(confsfn)
+			command = f"{casu_mos} {data_files} {conf_files} {root}/{dire}/{'.'.join(filter)}.fits {root}/{dire}/.{'.'.join(filter)}.conf.fits"
+			os.system(command)
+			with open(f'{root}/{dire}/history', 'a') as commands:
+				commands.write(f'{command}\n')
+		os.system(f'rm {tempdir}/*')
+	else:
+		print('data already present!')
+		cont=False
+
+os.chdir(f'data/{id}/')
+dummy = input()
+os.system(f'ds9 -tile u.fits g.fits r.fits Ha.fits i.fits r.Ha.i.fits -lock frame wcs -lock scale -lock colorbar -regions format xy -regions system wcs -regions sky fk5 -regions load all coord.xy -scale mode zscale')
+    

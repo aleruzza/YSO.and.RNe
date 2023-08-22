@@ -1,0 +1,447 @@
+index,in_data,u,g,r,Ha,i,r.Ha.i,Rne,coherent,shape,best_filter,comment
+0,FALSE,,,,,,,,,,,
+1,FALSE,,,,,,,,,,,
+2,FALSE,,,,,,,,,,,
+3,TRUE,no,no,no,faint,no,faint,3,y,tail,Ha,maybe very faint nebulosity in other filters
+4,TRUE,no,no,no,no,no,no,1,,,,"can’t see the star in the u band, the point at se is a brown dwarf candidate"
+5,TRUE,no,no,no,no,no,no,1,,,,
+6,TRUE,no,faint,no,faint,faint,faint,3,y,tail,,g is even more faint
+7,TRUE,no,no,no,faint,faint,faint,2,y,env,r.Ha.i,"extended, check scale"
+8,TRUE,no,visible,visible,prominent,prominent,prominent,5,y,"tail, arc",Ha,
+9,TRUE,no,no,no,no,no,no,1,,,,"very faint point source maybe in Ha, region of nebulosity but the star is not visible"
+10,TRUE,no,no,no,no,no,no,1,,,,coord not matching the point source
+11,TRUE,no,no,no,no,no,no,2,,,,probably a point source according to simbad
+12,TRUE,no,faint,no,no,no,no,2,,diffuse,,probably the g is just the starlight diffused
+13,TRUE,no,no,no,no,no,no,1,,,,cannot even see the star
+14,TRUE,no,no,no,no,no,no,1,,,,
+15,TRUE,no,no,no,no,no,no,1,,,,"in NED as an IR source, coordinates are correct, the star cannot be seen but is too close to another star"
+16,TRUE,no,faint,no,no,no,no,2,,,,
+17,TRUE,no,no,no,no,no,no,1,,,,"no star, no star in Gaia, Simbad or NED"
+18,TRUE,no,no,no,no,no,no,1,,,,
+19,TRUE,no,no,no,no,no,no,1,,,,
+20,TRUE,no,no,no,no,no,no,1,,,,Star only faint in I
+21,TRUE,no,no,no,no,no,no,1,,,,Star mismatch
+22,TRUE,no,no,no,no,no,no,1,,,,
+23,TRUE,no,no,no,no,no,no,1,,,,
+24,TRUE,no,no,no,no,no,no,2,,,,near a clear Rne but ~30 pc further than the YSO inside the nebulosity region
+25,TRUE,no,no,no,no,no,no,1,,,,near Rne but does not seem to be associated with this star
+26,TRUE,no,no,no,no,no,no,1,,,,
+27,TRUE,no,no,no,no,no,no,1,,,,
+28,TRUE,no,no,no,no,no,no,1,,,,
+29,TRUE,no,no,faint,visible,faint,faint,4,y,"arc, arm",,"no point source associated with that blob in Gaia, NED and SIMBAD"
+30,TRUE,no,no,no,no,no,no,1,,,,Distant: ~570 pc
+31,TRUE,no,visible,visible,prominent,prominent,prominent,5,y,"diffuse, asym",,
+32,TRUE,no,no,no,no,no,no,1,,,,too distant
+33,TRUE,no,no,no,no,no,no,1,,,,
+34,TRUE,no,no,faint,faint,faint,faint,2,,,,faint is actually very faint
+35,TRUE,no,prominent,prominent,prominent,prominent,prominent,4,y,"diffuse, tail",,difficult to understand if it is due to this actual star
+36,TRUE,no,no,no,no,no,no,1,,,,
+37,TRUE,no,faint,faint,faint,faint,faint,3,y,diffuse,,inside nebulosity
+38,TRUE,no,visible,visible,visible,visible,visible,4,y,"diffuse, blob",,
+39,TRUE,no,no,no,no,no,no,2,,,,
+40,TRUE,no,no,no,no,no,no,1,,,,
+41,TRUE,no,no,no,no,no,no,1,,,,can’t see anything
+42,TRUE,no,no,no,no,no,no,1,,,,
+43,TRUE,no,no,no,no,no,no,1,,,,
+44,TRUE,no,faint,faint,faint,faint,faint,2,,,,there is nebulosity between the 2 stars
+45,TRUE,no,no,faint,faint,faint,faint,2,,,,
+46,TRUE,no,no,no,no,no,no,2,,,,there seem to be nebulosity but it is not clear if it’s due to the artifacts
+47,TRUE,no,no,no,no,no,no,1,,,,
+48,TRUE,no,no,no,no,no,no,2,,,,
+49,TRUE,no,no,no,no,no,no,1,,,,can’t see the star
+50,TRUE,no,prominent,prominent,prominent,prominent,prominent,5,y,"diffuse, blob, asym",r.Ha.i,"linked with 51, which star is responsible?"
+51,TRUE,no,prominent,prominent,prominent,prominent,prominent,5,y,"blob, asym",r.Ha.i,"linked with 51, which star is responsible?"
+52,TRUE,no,no,no,no,no,no,2,,,,in a region of nebulosity but the star is not visible
+53,TRUE,no,no,no,no,no,no,1,,,,cannot see star
+54,TRUE,no,faint,faint,visible,visible,visible,4,y,"filament, diffuse",Ha.i,
+55,TRUE,no,faint,visible,visible,visible,visible,4,y,arc,Ha.r.i,is it really due to this star?
+56,TRUE,no,no,no,no,no,no,1,,,,can’t see the star
+57,TRUE,no,no,no,no,no,no,2,,,,in region of nebulosity but the object is far ~220 pc
+58,TRUE,no,no,no,no,no,no,1,,,,
+59,TRUE,no,no,no,no,no,no,1,,,,can’t see star
+60,TRUE,no,no,no,no,no,no,1,,,,can’t see star
+61,TRUE,no,no,no,no,no,no,1,,,,can’t see star
+62,TRUE,no,no,no,no,no,no,2,,,,star very distant
+63,TRUE,no,no,no,no,no,no,1,,,,
+64,TRUE,no,no,no,no,no,no,1,,,,"in the middle of an artifact, diffucult to tell if there is nebulosity"
+65,TRUE,no,no,prominent,prominent,prominent,prominent,2,y,diffuse,Ha.r.i,"we do not have images in g and u, it is probably an emission line galaxy ESO 396-11"
+66,TRUE,no,no,no,no,no,no,1,,,,"can’t see the star, region of nebulosity"
+67,TRUE,faint,visible,prominent,prominent,prominent,prominent,4,y,"diffuse, arc",Ha.r.i,hard to tell if is actually due to that star
+68,TRUE,no,no,no,no,no,no,1,,,,can’t see the star
+69,TRUE,prominent,prominent,prominent,prominent,prominent,prominent,5,y,"irregular, diffuse",all,
+70,TRUE,no,no,no,no,no,no,2,,,,maybe nebulosity in Ha?
+71,TRUE,prominent,prominent,prominent,prominent,prominent,prominent,5,y,diffuse,all,
+72,TRUE,no,no,no,no,no,no,2,,,,region of nebulosity but can’t see the star
+73,TRUE,prominent,prominent,prominent,prominent,prominent,prominent,4,y,"diffuse, irreguar",all,hard to assign a star
+74,TRUE,prominent,prominent,prominent,prominent,prominent,prominent,5,y,"diffuse, irregular",,hard to assign a star
+75,TRUE,no,no,no,no,no,no,1,,,,
+76,TRUE,no,faint,faint,visible ,visible,visible,3,y,diffuse,"Ha, I",is it nebulosity or light from the star?
+77,TRUE,no,no,no,no,no,no,1,,,,
+78,TRUE,no,no,no,no,no,no,1,,,,star only visible in Ha
+79,TRUE,no,visible,visible,visible,visible,visible,3,y,"filament, diffuse","g,r,i,Ha",large scale
+80,TRUE,no,no,no,no,no,no,1,,,,star not visible
+81,TRUE,no,faint,faint,faint,faint,faint,3,y,diffuse,,nebulosity or starlight?
+82,TRUE,no,no,no,no,no,no,1,,,,
+83,TRUE,no,no,no,no,no,no,1,,,,
+84,TRUE,prominent,prominent,prominent,prominent,prominent,prominent,5,y,"diffuse, irregular",all,probably group of star
+85,TRUE,no,no,no,no,no,no,1,,,,
+86,TRUE,no,no,faint,faint,visible,visible,4,y,tail,"I, Ha","is it really a Rne or is an artifact? There is a point source SE which is not in SIMBAD, NED and GAIA"
+87,TRUE,no,faint,visible,visible,visible,visible,3,y,arc,"r,i,Ha","star not visible, is it a Rne?"
+88,TRUE,visible,prominent,prominent,prominent,prominent,prominent,3,y,"diffuse, irregular","g,i,r,Ha","star not visible, is it a Rne?"
+89,TRUE,visible,visible,visible,visible,visible,visible,3,y,diffuse,all,"star not visible, is it a Rne?"
+90,TRUE,no,visible,visible,visible,visible,visible,4,y,diffuse,"g,r,i,Ha","region of nebulosity, star visible"
+91,TRUE,no,faint,faint,faint,faint,faint,3,y,diffuse,"g,r,i,Ha",region of nebulosity but can’t see the star
+92,TRUE,faint,faint,visible,visible,visible,visible,5,y,"tail, arc","I,r,Ha",which star is responsible?
+93,TRUE,no,no,no,no,no,no,1,,,,
+94,FALSE,,,,,,,,,,,
+95,FALSE,,,,,,,,,,,
+96,FALSE,,,,,,,,,,,
+97,FALSE,,,,,,,,,,,
+98,FALSE,,,,,,,,,,,
+99,FALSE,,,,,,,,,,,
+100,FALSE,,,,,,,,,,,
+101,FALSE,,,,,,,,,,,
+102,FALSE,,,,,,,,,,,
+103,FALSE,,,,,,,,,,,
+104,FALSE,,,,,,,,,,,
+105,FALSE,,,,,,,,,,,
+106,FALSE,,,,,,,,,,,
+107,FALSE,,,,,,,,,,,
+108,FALSE,,,,,,,,,,,
+109,FALSE,,,,,,,,,,,
+110,FALSE,,,,,,,,,,,
+111,FALSE,,,,,,,,,,,
+112,FALSE,,,,,,,,,,,
+113,FALSE,,,,,,,,,,,
+114,FALSE,,,,,,,,,,,
+115,FALSE,,,,,,,,,,,
+116,FALSE,,,,,,,,,,,
+117,FALSE,,,,,,,,,,,
+118,FALSE,,,,,,,,,,,
+119,FALSE,,,,,,,,,,,
+120,FALSE,,,,,,,,,,,
+121,FALSE,,,,,,,,,,,
+122,FALSE,,,,,,,,,,,
+123,FALSE,,,,,,,,,,,
+124,FALSE,,,,,,,,,,,
+125,FALSE,,,,,,,,,,,
+126,FALSE,,,,,,,,,,,
+127,FALSE,,,,,,,,,,,
+128,FALSE,,,,,,,,,,,
+129,FALSE,,,,,,,,,,,
+130,FALSE,,,,,,,,,,,
+131,FALSE,,,,,,,,,,,
+132,FALSE,,,,,,,,,,,
+133,FALSE,,,,,,,,,,,
+134,FALSE,,,,,,,,,,,
+135,FALSE,,,,,,,,,,,
+136,FALSE,,,,,,,,,,,
+137,FALSE,,,,,,,,,,,
+138,FALSE,,,,,,,,,,,
+139,FALSE,,,,,,,,,,,
+140,FALSE,,,,,,,,,,,
+141,FALSE,,,,,,,,,,,
+142,FALSE,,,,,,,,,,,
+143,FALSE,,,,,,,,,,,
+144,FALSE,,,,,,,,,,,
+145,FALSE,,,,,,,,,,,
+146,FALSE,,,,,,,,,,,
+147,FALSE,,,,,,,,,,,
+148,FALSE,,,,,,,,,,,
+149,FALSE,,,,,,,,,,,
+150,FALSE,,,,,,,,,,,
+151,FALSE,,,,,,,,,,,
+152,FALSE,,,,,,,,,,,
+153,FALSE,,,,,,,,,,,
+154,FALSE,,,,,,,,,,,
+155,FALSE,,,,,,,,,,,
+156,FALSE,,,,,,,,,,,
+157,FALSE,,,,,,,,,,,
+158,FALSE,,,,,,,,,,,
+159,FALSE,,,,,,,,,,,
+160,FALSE,,,,,,,,,,,
+161,FALSE,,,,,,,,,,,
+162,FALSE,,,,,,,,,,,
+163,FALSE,,,,,,,,,,,
+164,FALSE,,,,,,,,,,,
+165,FALSE,,,,,,,,,,,
+166,FALSE,,,,,,,,,,,
+167,FALSE,,,,,,,,,,,
+168,FALSE,,,,,,,,,,,
+169,FALSE,,,,,,,,,,,
+170,FALSE,,,,,,,,,,,
+171,FALSE,,,,,,,,,,,
+172,FALSE,,,,,,,,,,,
+173,FALSE,,,,,,,,,,,
+174,FALSE,,,,,,,,,,,
+175,FALSE,,,,,,,,,,,
+176,FALSE,,,,,,,,,,,
+177,FALSE,,,,,,,,,,,
+178,FALSE,,,,,,,,,,,
+179,FALSE,,,,,,,,,,,
+180,FALSE,,,,,,,,,,,
+181,FALSE,,,,,,,,,,,
+182,FALSE,,,,,,,,,,,
+183,FALSE,,,,,,,,,,,
+184,FALSE,,,,,,,,,,,
+185,FALSE,,,,,,,,,,,
+186,FALSE,,,,,,,,,,,
+187,FALSE,,,,,,,,,,,
+188,FALSE,,,,,,,,,,,
+189,FALSE,,,,,,,,,,,
+190,FALSE,,,,,,,,,,,
+191,FALSE,,,,,,,,,,,
+192,FALSE,,,,,,,,,,,
+193,FALSE,,,,,,,,,,,
+194,FALSE,,,,,,,,,,,
+195,FALSE,,,,,,,,,,,
+196,FALSE,,,,,,,,,,,
+197,FALSE,,,,,,,,,,,
+198,FALSE,,,,,,,,,,,
+199,FALSE,,,,,,,,,,,
+200,FALSE,,,,,,,,,,,
+201,FALSE,,,,,,,,,,,
+202,FALSE,,,,,,,,,,,
+203,FALSE,,,,,,,,,,,
+204,FALSE,,,,,,,,,,,
+205,FALSE,,,,,,,,,,,
+206,FALSE,,,,,,,,,,,
+207,FALSE,,,,,,,,,,,
+208,FALSE,,,,,,,,,,,
+209,FALSE,,,,,,,,,,,
+210,FALSE,,,,,,,,,,,
+211,FALSE,,,,,,,,,,,
+212,FALSE,,,,,,,,,,,
+213,FALSE,,,,,,,,,,,
+214,FALSE,,,,,,,,,,,
+215,FALSE,,,,,,,,,,,
+216,FALSE,,,,,,,,,,,
+217,FALSE,,,,,,,,,,,
+218,FALSE,,,,,,,,,,,
+219,FALSE,,,,,,,,,,,
+220,FALSE,,,,,,,,,,,
+221,FALSE,,,,,,,,,,,
+222,FALSE,,,,,,,,,,,
+223,FALSE,,,,,,,,,,,
+224,FALSE,,,,,,,,,,,
+225,FALSE,,,,,,,,,,,
+226,FALSE,,,,,,,,,,,
+227,FALSE,,,,,,,,,,,
+228,FALSE,,,,,,,,,,,
+229,FALSE,,,,,,,,,,,
+230,FALSE,,,,,,,,,,,
+231,FALSE,,,,,,,,,,,
+232,FALSE,,,,,,,,,,,
+233,FALSE,,,,,,,,,,,
+234,FALSE,,,,,,,,,,,
+235,FALSE,,,,,,,,,,,
+236,FALSE,,,,,,,,,,,
+237,FALSE,,,,,,,,,,,
+238,FALSE,,,,,,,,,,,
+239,FALSE,,,,,,,,,,,
+240,FALSE,,,,,,,,,,,
+241,FALSE,,,,,,,,,,,
+242,FALSE,,,,,,,,,,,
+243,FALSE,,,,,,,,,,,
+244,FALSE,,,,,,,,,,,
+245,FALSE,,,,,,,,,,,
+246,FALSE,,,,,,,,,,,
+247,FALSE,,,,,,,,,,,
+248,FALSE,,,,,,,,,,,
+249,FALSE,,,,,,,,,,,
+250,FALSE,,,,,,,,,,,
+251,FALSE,,,,,,,,,,,
+252,FALSE,,,,,,,,,,,
+253,FALSE,,,,,,,,,,,
+254,FALSE,,,,,,,,,,,
+255,FALSE,,,,,,,,,,,
+256,FALSE,,,,,,,,,,,
+257,FALSE,,,,,,,,,,,
+258,FALSE,,,,,,,,,,,
+259,FALSE,,,,,,,,,,,
+260,FALSE,,,,,,,,,,,
+261,FALSE,,,,,,,,,,,
+262,FALSE,,,,,,,,,,,
+263,FALSE,,,,,,,,,,,
+264,FALSE,,,,,,,,,,,
+265,FALSE,,,,,,,,,,,
+266,FALSE,,,,,,,,,,,
+267,FALSE,,,,,,,,,,,
+268,FALSE,,,,,,,,,,,
+269,FALSE,,,,,,,,,,,
+270,FALSE,,,,,,,,,,,
+271,FALSE,,,,,,,,,,,
+272,FALSE,,,,,,,,,,,
+273,FALSE,,,,,,,,,,,
+274,FALSE,,,,,,,,,,,
+275,FALSE,,,,,,,,,,,
+276,FALSE,,,,,,,,,,,
+277,FALSE,,,,,,,,,,,
+278,FALSE,,,,,,,,,,,
+279,FALSE,,,,,,,,,,,
+280,FALSE,,,,,,,,,,,
+281,FALSE,,,,,,,,,,,
+282,FALSE,,,,,,,,,,,
+283,FALSE,,,,,,,,,,,
+284,FALSE,,,,,,,,,,,
+285,FALSE,,,,,,,,,,,
+286,FALSE,,,,,,,,,,,
+287,FALSE,,,,,,,,,,,
+288,FALSE,,,,,,,,,,,
+289,FALSE,,,,,,,,,,,
+290,FALSE,,,,,,,,,,,
+291,FALSE,,,,,,,,,,,
+292,FALSE,,,,,,,,,,,
+293,FALSE,,,,,,,,,,,
+294,FALSE,,,,,,,,,,,
+295,FALSE,,,,,,,,,,,
+296,FALSE,,,,,,,,,,,
+297,FALSE,,,,,,,,,,,
+298,FALSE,,,,,,,,,,,
+299,FALSE,,,,,,,,,,,
+300,FALSE,,,,,,,,,,,
+301,FALSE,,,,,,,,,,,
+302,FALSE,,,,,,,,,,,
+303,FALSE,,,,,,,,,,,
+304,FALSE,,,,,,,,,,,
+305,FALSE,,,,,,,,,,,
+306,FALSE,,,,,,,,,,,
+307,FALSE,,,,,,,,,,,
+308,FALSE,,,,,,,,,,,
+309,FALSE,,,,,,,,,,,
+310,FALSE,,,,,,,,,,,
+311,FALSE,,,,,,,,,,,
+312,FALSE,,,,,,,,,,,
+313,FALSE,,,,,,,,,,,
+314,FALSE,,,,,,,,,,,
+315,FALSE,,,,,,,,,,,
+316,FALSE,,,,,,,,,,,
+317,FALSE,,,,,,,,,,,
+318,FALSE,,,,,,,,,,,
+319,FALSE,,,,,,,,,,,
+320,FALSE,,,,,,,,,,,
+321,FALSE,,,,,,,,,,,
+322,FALSE,,,,,,,,,,,
+323,FALSE,,,,,,,,,,,
+324,FALSE,,,,,,,,,,,
+325,FALSE,,,,,,,,,,,
+326,FALSE,,,,,,,,,,,
+327,FALSE,,,,,,,,,,,
+328,FALSE,,,,,,,,,,,
+329,FALSE,,,,,,,,,,,
+330,FALSE,,,,,,,,,,,
+331,FALSE,,,,,,,,,,,
+332,FALSE,,,,,,,,,,,
+333,TRUE,no,no,no,no,no,no,1,,,,very bright star
+334,TRUE,no,no,no,no,no,no,1,,,,very bright star
+335,TRUE,no,faint,faint,faint,faint,faint,3,,,,is it nebulosity or light from the star?
+336,TRUE,no,no,no,no,no,no,1,,,,
+337,TRUE,no,no,no,no,no,no,1,,,,
+338,TRUE,no,no,no,no,no,no,1,,,,
+339,TRUE,no,no,no,no,no,no,1,,,,
+340,FALSE,,,,,,,,,,,
+341,TRUE,no,no,no,no,no,no,1,,,,very bright star
+342,TRUE,no,no,no,no,no,no,1,,,,
+343,TRUE,no,no,no,no,no,no,1,,,,
+344,TRUE,no,no,no,no,no,no,1,,,,
+345,TRUE,no,no,no,no,no,no,1,,,,
+346,TRUE,no,no,no,no,no,no,1,,,,
+347,TRUE,no,no,no,no,no,no,1,,,,
+348,TRUE,no,no,no,no,no,no,1,,,,
+349,TRUE,no,no,no,no,no,no,1,,,,
+350,TRUE,no,no,no,no,no,no,1,,,,close to a very bright star
+351,FALSE,,,,,,,,,,,
+352,FALSE,,,,,,,,,,,
+353,TRUE,no,no,no,no,no,no,1,,,,
+354,TRUE,no,no,faint,no,faint,faint,2,,,,
+355,TRUE,no,no,no,no,no,no,1,,,,
+356,TRUE,no,no,no,no,no,no,1,,,,
+357,TRUE,no,no,no,no,no,no,1,,,,
+358,TRUE,no,no,no,no,no,no,1,,,,
+359,FALSE,,,,,,,,,,,
+360,FALSE,,,,,,,,,,,
+361,TRUE,no,no,no,no,no,no,2,,,,
+362,TRUE,no,no,no,no,no,no,1,,,,
+363,TRUE,no,no,no,no,no,no,1,,,,
+364,TRUE,no,no,faint,no,visible,visible,4,y,"tail, asymmetric",Ha,is it an artifact?
+365,TRUE,no,no,no,no,faint,no,2,,,,
+366,TRUE,no,no,no,no,no,no,1,,,,
+367,TRUE,no,no,no,no,no,no,1,,,,
+368,TRUE,no,no,no,no,no,no,1,,,,
+369,TRUE,no,no,no,no,no,no,1,,,,
+370,TRUE,no,no,no,no,no,no,1,,,,
+371,TRUE,no,no,no,no,no,no,1,,,,
+372,TRUE,no,no,no,no,no,no,1,,,,
+373,TRUE,no,no,no,no,no,faint,3,y,tail,stack,noise or nebulosity?
+374,TRUE,no,no,no,no,no,no,1,,,,
+375,TRUE,no,no,no,no,no,no,1,,,,
+376,TRUE,no,no,no,no,no,no,1,,,,
+377,TRUE,no,no,no,no,no,no,1,,,,
+378,TRUE,no,no,no,no,no,no,1,,,,
+379,TRUE,no,no,no,no,no,no,1,,,,
+380,TRUE,no,no,no,no,faint,faint,3,y,tail,stack,Rne?
+381,TRUE,no,visible,visible,visible,visible,visible,3,y,"large scale, arc",g,YSO in the center of a ring of nebulosity
+382,TRUE,no,no,no,no,no,no,1,,,,
+383,TRUE,no,no,no,no,no,no,3,y,,,region of nebulosity but the star is too bright and there is the mirror artifact
+384,TRUE,no,no,no,no,no,no,3,y,,,region of nebulosity but the star is too bright and there is the mirror artifact
+385,TRUE,no,no,no,no,no,no,2,,,,region full of artifacts
+386,TRUE,prominent,prominent,prominent,prominent,prominent,prominent,5,y,"arc, tail","g,r,i,Ha",
+387,TRUE,no,no,no,no,no,no,1,,,,
+388,TRUE,no,no,no,no,no,no,1,,,,
+389,TRUE,faint,visible,visible,visible,visible,visible,4,y,"filament, diffuse","g,r,i,Ha",is it due to this star?
+390,TRUE,no,no,no,no,no,no,1,,,,
+391,TRUE,no,faint,faint,visible,visible,visible,4,y,diffuse,"r,i,Ha",region of nebulosity
+392,TRUE,no,faint,faint,visible,visible,visible,5,y,diffuse,"r,i,Ha",region of nebulosity
+393,TRUE,no,no,no,no,no,no,1,,,,
+394,TRUE,no,prominent,prominent,prominent,prominent,prominent,4,y,"diffuse,arc","g,r,Ha",which star is correct?
+395,TRUE,faint,visible,visible,visible,visible,visible,4,y,diffuse,"g,r,i,Ha",region of nebulosity
+396,TRUE,no,no,no,no,no,no,1,,,,
+397,TRUE,prominent,prominent,prominent,prominent,prominent,prominent,5,y,"diffuse, irregu",all,very bright star
+398,TRUE,no,faint,faint,faint,faint,faint,4,y,filament,"g,r,i",
+399,TRUE,no,faint,faint,faint,faint,faint,2,,,,
+400,TRUE,no,no,no,no,no,no,1,,,,
+401,TRUE,prominent,prominent,prominent,prominent,prominent,prominent,5,y,diffuse,all,very bright star
+402,TRUE,no,no,no,no,no,no,1,,,,
+403,TRUE,no,no,no,no,faint,faint,3,y,tail,Ha,is it a point source in Ha? Not in Aladin
+404,TRUE,no,visible,visible,visible,visible,visible,4,y,arc,"g,r,i,Ha",star not visible
+405,TRUE,no,faint,faint,faint,faint,faint,3,y,"filament, large scale","g,r,i,Ha","distant from star, large scale"
+406,TRUE,no,no,no,no,no,no,3,y,,,region of nebulosity but star not visible
+407,TRUE,no,no,no,no,no,no,1,,,,
+408,TRUE,no,no,no,no,no,no,2,y,diffuse,"g,r,Ha","region of nebulosity, star not visible"
+409,TRUE,no,no,no,no,no,no,1,,,,
+410,TRUE,no,no,no,no,no,no,3,y,,,"region of nebulosity, star not visible"
+411,FALSE,,,,,,,,,,,
+412,TRUE,prominent,prominent,prominent,prominent,prominent,prominent,5,y,"diffuse, tail, irregular",all,
+413,TRUE,prominent,prominent,prominent,prominent,prominent,prominent,5,y,"tail, irregular",all,
+414,TRUE,no,no,no,no,no,no,2,,,,
+415,TRUE,no,faint,faint,faint,faint,faint,3,,,,"star not visible, region of nebulosity"
+416,TRUE,prominent,prominent,prominent,prominent,prominent,prominent,5,y,"arc, irregular",all,"very bright region, star not visible"
+417,TRUE,no,no,no,no,no,no,2,,,,
+418,TRUE,no,no,no,no,no,no,1,,,,
+419,TRUE,no,no,no,no,no,no,1,,,,bright star
+420,TRUE,no,no,no,no,no,no,1,,,,
+421,TRUE,no,no,no,no,no,no,2,,,,
+422,TRUE,no,no,no,no,no,no,1,,,,
+423,TRUE,no,no,no,no,no,no,1,,,,
+424,TRUE,no,no,no,no,no,no,1,,,,
+425,TRUE,no,no,no,no,no,no,2,,,,
+426,TRUE,no,no,no,no,no,no,1,,,,
+427,FALSE,,,,,,,,,,,
+428,TRUE,no,no,no,no,no,no,1,,,,
+429,TRUE,no,no,no,no,no,no,1,,,,
+430,TRUE,no,no,no,no,no,no,1,,,,
+431,TRUE,no,no,no,no,no,no,1,,,,
+432,TRUE,no,no,no,no,no,no,1,,,,
+433,TRUE,no,no,no,no,no,no,1,,,,
+434,TRUE,no,no,no,no,no,no,1,,,,no visible star
+435,TRUE,faint,faint,faint,faint,faint,faint,4,y,inverse,all,
+436,TRUE,no,no,no,no,no,no,1,,,,
+437,TRUE,no,no,no,no,no,no,1,,,,
+438,TRUE,no,no,no,no,no,no,1,,,,
+439,TRUE,no,no,faint,faint,faint,faint,3,y,,,point source or Rne?
+440,TRUE,no,no,no,no,no,no,1,,,,
+441,TRUE,no,no,no,no,no,no,1,,,,
+442,TRUE,no,no,no,no,no,no,1,,,,bright star
+443,TRUE,no,no,no,no,no,no,1,,,,
+444,TRUE,no,no,no,no,no,no,1,,,,
+445,TRUE,no,no,no,no,no,no,1,,,,
