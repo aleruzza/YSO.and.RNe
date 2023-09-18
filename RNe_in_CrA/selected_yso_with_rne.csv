@@ -1,0 +1,34 @@
+,ra,dec,u,g,r,Ha,i,r.Ha.i,Rne,coherent,shape,best_filter,comment,class_esplin,class_ppvii,class_duh
+8,285.2858827,-36.9557473,no,visible,visible,prominent,prominent,prominent,5.0,y,"tail, arc",Ha,,full,II,II
+29,285.6379016,-36.9726683,no,no,faint,visible,faint,faint,4.0,y,"arc, arm",,"no point source associated with that blob in Gaia, NED and SIMBAD",full,II,II
+31,285.4235262,-36.9981179,no,visible,visible,prominent,prominent,prominent,5.0,y,"diffuse, asym",,,full,II,II
+35,285.4948442,-36.9639498,no,prominent,prominent,prominent,prominent,prominent,4.0,y,"diffuse, tail",,difficult to understand if it is due to this actual star,full,II,II
+38,284.46916666666664,-37.24444444444445,no,visible,visible,visible,visible,visible,4.0,y,"diffuse, blob",,,,,I
+50,285.44999999999993,-36.95611111111111,no,prominent,prominent,prominent,prominent,prominent,5.0,y,"diffuse, blob, asym",r.Ha.i,"linked with 51, which star is responsible?",flat/I,,I
+51,285.45166666666665,-36.95388888888889,no,prominent,prominent,prominent,prominent,prominent,5.0,y,"blob, asym",r.Ha.i,"linked with 51, which star is responsible?",,,I
+54,285.47375,-37.009166666666665,no,faint,faint,visible,visible,visible,4.0,y,"filament, diffuse",Ha.i,,,,II
+55,285.4816666666666,-36.9475,no,faint,visible,visible,visible,visible,4.0,y,arc,Ha.r.i,is it really due to this star?,,,I
+67,285.4937499999999,-36.95222222222223,faint,visible,prominent,prominent,prominent,prominent,4.0,y,"diffuse, arc",Ha.r.i,hard to tell if is actually due to that star,,,I
+69,285.4733333333333,-36.95222222222223,prominent,prominent,prominent,prominent,prominent,prominent,5.0,y,"irregular, diffuse",all,,,,III
+71,285.42,-36.87583333333333,prominent,prominent,prominent,prominent,prominent,prominent,5.0,y,diffuse,all,,,II,III
+73,285.48041666666666,-36.95583333333334,prominent,prominent,prominent,prominent,prominent,prominent,4.0,y,"diffuse, irreguar",all,hard to assign a star,,,I
+74,285.485,-36.95777777777778,prominent,prominent,prominent,prominent,prominent,prominent,5.0,y,"diffuse, irregular",,hard to assign a star,flat/I,,I
+84,285.41313208746266,-36.891493999206055,prominent,prominent,prominent,prominent,prominent,prominent,5.0,y,"diffuse, irregular",all,probably group of star,III,II,
+86,285.8561737199495,-36.91813288079156,no,no,faint,faint,visible,visible,4.0,y,tail,"I, Ha","is it really a Rne or is an artifact? There is a point source SE which is not in SIMBAD, NED and GAIA",debris/ev trans,II,
+90,285.3898404257267,-37.0084106662666,no,visible,visible,visible,visible,visible,4.0,y,diffuse,"g,r,i,Ha","region of nebulosity, star visible",full,F,
+92,285.285923765846,-36.95563289025824,faint,faint,visible,visible,visible,visible,5.0,y,"tail, arc","I,r,Ha",which star is responsible?,full,??,
+364,284.5076301586834,-36.896016015248456,no,no,faint,no,visible,visible,4.0,y,"tail, asymmetric",Ha,is it an artifact?,III,,
+386,285.28605309917674,-36.95591500136713,prominent,prominent,prominent,prominent,prominent,prominent,5.0,y,"arc, tail","g,r,i,Ha",,0,,
+389,285.33687309770914,-37.05088100049935,faint,visible,visible,visible,visible,visible,4.0,y,"filament, diffuse","g,r,i,Ha",is it due to this star?,III,,
+391,285.3632610938904,-36.98582900005063,no,faint,faint,visible,visible,visible,4.0,y,diffuse,"r,i,Ha",region of nebulosity,debris/ev trans,,
+392,285.3697460935504,-36.99227999994054,no,faint,faint,visible,visible,visible,5.0,y,diffuse,"r,i,Ha",region of nebulosity,III,,
+394,285.3952840921607,-37.01583499950779,no,prominent,prominent,prominent,prominent,prominent,4.0,y,"diffuse,arc","g,r,Ha",which star is correct?,III,,
+395,285.4017940893077,-36.92755099939767,faint,visible,visible,visible,visible,visible,4.0,y,diffuse,"g,r,i,Ha",region of nebulosity,evol or transitional,,
+397,285.4122440875149,-36.890827999221045,prominent,prominent,prominent,prominent,prominent,prominent,5.0,y,"diffuse, irregu",all,very bright star,III?,,
+398,285.4131050904654,-37.00496199920651,no,faint,faint,faint,faint,faint,4.0,y,filament,"g,r,i",,III,,
+401,285.4201490865074,-36.87619099908757,prominent,prominent,prominent,prominent,prominent,prominent,5.0,y,diffuse,all,very bright star,full,,
+404,285.45192708606095,-36.95412599855218,no,visible,visible,visible,visible,visible,4.0,y,arc,"g,r,i,Ha",star not visible,0/I,,
+412,285.47370308429936,-36.95238899818638,prominent,prominent,prominent,prominent,prominent,prominent,5.0,y,"diffuse, tail, irregular",all,,full,,
+413,285.48047808386445,-36.95615799807273,prominent,prominent,prominent,prominent,prominent,prominent,5.0,y,"tail, irregular",all,,flat/I,,
+416,285.493925082708,-36.95247199784745,prominent,prominent,prominent,prominent,prominent,prominent,5.0,y,"arc, irregular",all,"very bright region, star not visible",flat/I,,
+435,285.7765730687356,-37.278152993188414,faint,faint,faint,faint,faint,faint,4.0,y,inverse,all,,III,,
