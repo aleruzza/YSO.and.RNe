@@ -1,0 +1,16 @@
+,Unnamed: 0,ra,dec,u,g,r,Ha,i,r.Ha.i,Rne,coherent,shape,best_filter,comment,class_esplin,class_ppvii,class_duh
+0,8,285.2858827,-36.9557473,no,visible,visible,prominent,prominent,prominent,5.0,y,"tail, arc",Ha,,full,II,II
+1,29,285.6379016,-36.9726683,no,no,faint,visible,faint,faint,4.0,y,"arc, arm",,"no point source associated with that blob in Gaia, NED and SIMBAD",full,II,II
+2,31,285.4235262,-36.9981179,no,visible,visible,prominent,prominent,prominent,5.0,y,"diffuse, asym",,,full,II,II
+3,35,285.4948442,-36.9639498,no,prominent,prominent,prominent,prominent,prominent,4.0,y,"diffuse, tail",,difficult to understand if it is due to this actual star,full,II,II
+7,54,285.47375,-37.009166666666665,no,faint,faint,visible,visible,visible,4.0,y,"filament, diffuse",Ha.i,,,,II
+11,71,285.42,-36.87583333333333,prominent,prominent,prominent,prominent,prominent,prominent,5.0,y,diffuse,all,,,II,III
+14,84,285.41313208746266,-36.891493999206055,prominent,prominent,prominent,prominent,prominent,prominent,5.0,y,"diffuse, irregular",all,probably group of star,III,II,
+15,86,285.8561737199495,-36.91813288079156,no,no,faint,faint,visible,visible,4.0,y,tail,"I, Ha","is it really a Rne or is an artifact? There is a point source SE which is not in SIMBAD, NED and GAIA",debris/ev trans,II,
+16,90,285.3898404257267,-37.0084106662666,no,visible,visible,visible,visible,visible,4.0,y,diffuse,"g,r,i,Ha","region of nebulosity, star visible",full,F,
+17,92,285.285923765846,-36.95563289025824,faint,faint,visible,visible,visible,visible,5.0,y,"tail, arc","I,r,Ha",which star is responsible?,full,??,
+21,391,285.3632610938904,-36.98582900005063,no,faint,faint,visible,visible,visible,4.0,y,diffuse,"r,i,Ha",region of nebulosity,debris/ev trans,,
+24,395,285.4017940893077,-36.92755099939767,faint,visible,visible,visible,visible,visible,4.0,y,diffuse,"g,r,i,Ha",region of nebulosity,evol or transitional,,
+25,397,285.4122440875149,-36.890827999221045,prominent,prominent,prominent,prominent,prominent,prominent,5.0,y,"diffuse, irregu",all,very bright star,III?,,
+27,401,285.4201490865074,-36.87619099908757,prominent,prominent,prominent,prominent,prominent,prominent,5.0,y,diffuse,all,very bright star,full,,
+29,412,285.47370308429936,-36.95238899818638,prominent,prominent,prominent,prominent,prominent,prominent,5.0,y,"diffuse, tail, irregular",all,,full,,
